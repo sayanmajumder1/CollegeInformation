@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of Colleges Under Bardhaman University</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #e9ecef;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .college-card {
+      margin-bottom: 20px;
+    }
+    .card {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: none;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px 5px rgba(0, 255, 255, 0.5); /* Neon hover effect */
+    }
+    .card-body {
+      border-radius: 0 0 5px 5px;
+    }
+    .search-box {
+      margin: 20px 0;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+    .card-title, .card-text {
+      color: #000000;
+    }
+    .card-logo {
+      max-width: 100px;
+      max-height: 100px;
+      margin-bottom: 15px;
+    }
+    #splash-screen {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background-color: #808080;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      padding: 20px; /* Added padding */
+    }
+    .splash-content {
+      text-align: center;
+    }
+    .splash-logo {
+      max-width: 200px;
+      max-height: 200px;
+      margin-bottom: 20px;
+    }
+    header {
+      background-color: #A9A9A9;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    footer {
+      background-color:  #A9A9A9;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="splash-screen">
+    <div class="splash-content">
+      <img src="BlueBird.png" alt="Splash Screen Logo" class="splash-logo">
+      <h1>This Website Is Made By BlueBird</h1>
+    </div>
+  </div>
+  
+  <header>
+    <h1>Welcome to the College Directory</h1>
+  </header>
+
+  <div class="container">
+    <h1 class="text-center my-4">List of Colleges Under Bardhaman University</h1>
+    <div class="search-box">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="search-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.415l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zm-5.442 1.1a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"/>
+            </svg>
+          </span>
+        </div>
+        <input type="text" id="searchInput" class="form-control" placeholder="Search for a college..." aria-label="Search" aria-describedby="search-icon">
+      </div>
+    </div>
+    <div id="collegesList" class="row">
+      <!-- Cards will be inserted here by JavaScript -->
+    </div>
+  </div>
+
+  <footer>
+    <p>BlueBird | Contact: <a href="mailto:sayanmajumder566@gmail.com" style="color: white;">sayanmajumder566@gmail.com</a></p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
