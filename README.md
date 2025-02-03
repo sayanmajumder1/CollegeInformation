@@ -75,4 +75,4 @@ And that's it! The website will be fully functional.
 
 ---
 
-This README follows a clean and organized format. You can replace the **image links** with actual hosted images or update them if needed. Let me know if you want any changes! 🚀
+
