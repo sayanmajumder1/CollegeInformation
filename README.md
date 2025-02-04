@@ -5,7 +5,7 @@
 
 > A simple website displaying colleges under **Bardhaman University**, along with their details and official website links.  
 
-![College Information](https://raw.githubusercontent.com/sayanmajumder1/CollegeInformation/main/cp.jpg)  
+![College Information](https://raw.githubusercontent.com/sayanmajumder1/CollegeInformation/main/Cp.jpg)  
 
 ---
 
