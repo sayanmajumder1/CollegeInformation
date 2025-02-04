@@ -33,10 +33,10 @@ Built using:
 ## 📸 **Screenshots**  
 
 ### 🏠 Home Page  
-![Home Page](https://raw.githubusercontent.com/sayanmajumder1/CollegeInformation/main/home.png)  
+![Home Page](https://raw.githubusercontent.com/sayanmajumder1/CollegeInformation/main/Cp.jpg)  
 
 ### 📋 College List  
-![College List](https://raw.githubusercontent.com/sayanmajumder1/CollegeInformation/main/colleges.png)  
+![College List](https://raw.githubusercontent.com/sayanmajumder1/CollegeInformation/main/Cp.jpg)  
 
 ---
 
